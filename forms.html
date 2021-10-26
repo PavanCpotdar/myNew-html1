@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="icon" href="images/like.jpg">
+</head>
+<body align="" bgcolor="">
+    <h1>Form</h1>
+    <hr>
+    <form action="table.html" align="center">
+        
+        <label for="name1" >Name : </label><input type="text" placeholder="Enter ur Name" id="name1"  required><br>
+        <label for="email1">Email : </label><input type="email" value="@gmail.com" placeholder="Enter ur Email"  id="email1" ><br>
+        <label for="number">Phone number : </label><input type="tel" value="+91" id="number" maxlength="10" minlength="10" placeholder="Enter ur Phone number" ><br>
+        <label>Password: </label><input type="password" minlength="5" maxlength="10" placeholder="Enter ur Password" ><br><br>
+        <label for="male">Male</label><input type="radio" name="name" id="male">
+        <label for="female">Female</label><input type="radio" name="name" id="female"><br>
+        <label for="pic"> Photo</label><input type="file" id="pic" ><br>
+        <input type="submit"  ><br><br>
+        <input type="submit"   value="login"><br><br>
+<h3>Fieldset tag  and Legend tag</h3>
+        <fieldset>
+            <legend align="center">Phone number</legend>
+            <input type="tel" id="number" maxlength="10" minlength="10" placeholder="Enter ur Phone number" >
+        </fieldset>
+        <fieldset>
+            <legend align="center">Gender(radio button)</legend>
+            <label for="Gender">MALE</label><input type="radio" id="Gender"  name="name" maxlength="10" minlength="10" placeholder="" ><br>
+            <label for="Gender">FEMALE</label><input type="radio" id="Gender2" name="name"  maxlength="10" minlength="10" placeholder="" >
+        </fieldset>
+        <fieldset>
+            <legend align="center">date</legend>
+            <input type="date"  maxlength="10" minlength="10" placeholder="Enter ur Phone number" >
+        </fieldset>
+        <fieldset>
+            <legend align="center">Date and Time</legend>
+            <input type="datetime-local"  maxlength="10" minlength="10" placeholder="Enter ur Phone number" >
+        </fieldset>
+        <fieldset >
+            <legend align="center">Subjects(checkbox)</legend>
+           <label for="i">kannada</label> <input type=   name="i" maxlength="10" minlength="10" ><br>
+           <label for="i">scin</label> <input type="checkbox"   name="i" maxlength="10" minlength="10" ><br>
+
+           <label for="i">moral</label> <input type="checkbox"   name="i" maxlength="10" minlength="10" ><br>
+           <label for="i">social</label> <input type="checkbox"   name="i" maxlength="10" minlength="10" ><br>
+           <label for="i">math</label> <input type="checkbox"   name="i" maxlength="10" minlength="10" ><br>
+        </fieldset>
+        <fieldset><legend>select your place </legend>
+            <select name="" id="">
+                <option value="">bidar</option>
+                <option value="">gulbarga</option>
+                <option value="">vijaypur</option>
+                <option value="">banglore</option>
+                <option value="">tumkur</option>
+            </select>
+        </fieldset>
+    </form>
+    <form action="table.html" align="center">
+        <table border="">
+            <tr><th><label for="name1">Name : </label></th><th><input type="text" placeholder="Enter ur Name" id="name1"  required></th></tr>
+            <tr><th> <label for="email1">Email : </label></th><th><input type="email" placeholder="Enter ur Email"  id="email1" ></th></tr>
+            <tr><th> <label for="number">Phone number : </label></th><th><input type="tel" id="number" maxlength="10" minlength="10" placeholder="Enter ur Phone number" value="+91"></th></tr>
+            <tr><label>Password: </label><th><label>Password: </label></th><th><input type="password" minlength="5" maxlength="10" placeholder="Enter ur Password" ></th></tr>
+            <tr ><th colspan="2"><input type="submit"  ></th></tr>  
+        
+    </table>
+
+<h3>Icons </h3>
+<p>boxicons</p>
+
+    </form>
+</body>
+</html>
